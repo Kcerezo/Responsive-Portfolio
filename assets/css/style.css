@@ -33,6 +33,9 @@ h1{
     margin: 20px;
 
 }
+.container h2 {
+    text-align: initial;
+}
 
 body{
     background-color: lightgray;

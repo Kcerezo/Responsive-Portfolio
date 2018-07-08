@@ -1,0 +1,233 @@
+h1{
+    size:16px;
+    font:bold;
+    color:white;
+    background-color: teal;
+    height:30px;
+    width:250px;
+    padding: 5px;
+    text-align: center;
+    margin-left: 100px;
+    margin-right:100px;
+    display:inline;
+}
+
+#bio{
+    color: teal;
+    font:bold;
+    background-color: white;
+    padding: 30px;
+    margin-left:100px;
+    margin-right: 100px;     
+}
+
+#sidebar li{
+    text-align: right;
+    display:inline;
+    padding-right: 90px;
+    color: black;
+}
+
+.container{
+    text-align: right;
+    margin: 20px;
+
+}
+
+body{
+    background-color: lightgray;
+    margin:50px;
+}
+
+h2{
+    color: teal;
+    font: bold;
+    padding: 30px;
+}
+
+h3{
+    background-color: white;
+    color: teal;
+    margin-right:100px;
+    padding:20px;
+
+}
+
+h4{
+    padding: 10px;
+    margin: 20;
+    font: bold;
+    font-style: inherit;
+}
+
+.clearfix:after {
+    content: " ";
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}
+
+img{
+    float:left;
+}
+
+p{
+    float: right;
+    line-height: 1.6em;
+}
+
+header {
+    background-color: lightgray;
+}
+
+header h1 {
+    float: left;
+}
+
+header nav {
+    float: right;
+    margin-top: 20px;
+}
+
+header p{
+    float:left;
+    text-align: center;
+}
+
+header side{
+    width:200px;
+    height: 200px;
+}
+
+header img{
+    width:200px;
+    height:200px;
+}
+
+.my-form{
+    margin-left: 100px;
+    margin-right:100px;
+    background-color: white;
+
+}
+
+.my-form .form-group{
+    margin: 10px;
+}
+
+.my-form label{
+    display:block;
+    margin:10px;
+}
+
+.my-form input[type="text"]{
+    width:90%;
+    margin:10px;
+}
+.button{
+    background-color: teal;
+    color: white;
+    border:none;
+    margin:20px;
+    size:18px;
+}
+header img {
+    padding: 10px;
+    margin-left:50px;
+    margin-right: 50px;
+
+}
+
+@media screen and (max-width:980px){
+.container{
+    width:100%;
+}
+body{
+    width:70%;
+}
+
+h1{
+    width: 30%
+}
+
+h2{
+    width: 30%
+}
+
+h3 {
+    width: 30%
+}
+
+#sidebar li{
+    width:100%;
+}
+
+img{
+    width: 100%;
+}
+}
+
+@media screen and (max-width:768px){
+    body{
+        width: 70%;
+    }
+    .container{
+        width:100%;
+    }
+    body{
+         width:70%;
+    }
+        
+    h1{
+        width: 30%
+    }
+        
+    h2{
+        width: 30%
+    }
+        
+    h3 {
+        width: 30%
+    }
+        
+    #sidebar li{
+        width:100%;
+    }
+    
+    img{
+        width: 100%;
+    }
+    }
+
+@media screen and (max-width:640px){
+    header{
+        position: static;
+    }
+    .container{
+        width:100%;
+    }
+    body{
+        width:70%;
+    }
+    
+    h1{
+        width: 30%
+    }
+    
+    h2{
+        width: 30%
+    }
+    
+    h3 {
+        width: 30%
+    }
+    
+    #sidebar li{
+        width:100%;
+    }
+    
+    img{
+        width: 100%;
+    }
+}
